@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;900&display=swap');
+::-webkit-scrollbar{
+    display: none;
+}
+
+* {
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: white;
+
+}
+/* ----------------------------------------- */
+.container{
+    max-width: 900px;
+    /* width: 100%; */
+    margin: 0 auto;
+}
+/* ------------------------------------------ */
+.navi {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: rgba(255,255,255,.5);  
+}
+.navigation {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #1D1D1F;
+}
+
+.links {
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    line-height: 1;
+    gap: 1.5rem;
+    padding-bottom: .5rem;
+    /* background-color: blue; */
+}
+.logo img{
+    width: 5rem;
+}
+/* ---------------------------------------- */
+.LandingPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    height: 75vh;
+}
+
+.text{
+    width: 23rem;
+}
+
+.text p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+b.future {
+
+    background: linear-gradient(92.3deg, #E41048 48.07%, #FFDC60 100.54%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;g, #000000, #000000);
+    ;
+
+}
+
+.downarrow {
+    margin-left: 50%;
+    margin-top: 2rem;
+    transform: translateX(-50%);
+}
+/* ----------------------------- */
+
+.elipse1 {
+    z-index: 0;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 200px;
+    height: 200px;
+
+    background: linear-gradient(136.65deg, #F20707 -3.05%, #E41048 100%);
+    filter: blur(100px);
+}
+
+.elipse2 {
+    z-index: 0;
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    width: 30rem;
+}
+/* --------------------------------------- */
+
+.About {
+    position: relative;
+    z-index: 1;
+    background-color: #111A45;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    height: 60vh;
+    margin-bottom: 2rem ;
+    
+}
+
+.About p{
+    color: white;
+}
+
+.About h1{
+    top: 0;
+    color: white;
+}
